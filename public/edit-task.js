@@ -57,7 +57,7 @@ editFormDOM.addEventListener('submit', async (e) => {
     console.error(error)
     taskNameDOM.value = tempName
     formAlertDOM.style.display = 'block'
-    formAlertDOM.innerHTML = `error, please try again`
+    formAlertDOM.innerHTML = `please enter the name of the task`
   }
   editBtnDOM.textContent = 'Edit'
   setTimeout(() => {
